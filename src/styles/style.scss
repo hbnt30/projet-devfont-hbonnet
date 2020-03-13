@@ -1,6 +1,8 @@
 header {
   h1 {
     color: red;
+
+    background-color: yellow;
   }
   @media (min-width: 600px) {
     h1 {
