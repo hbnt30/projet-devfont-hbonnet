@@ -1,0 +1,27 @@
+{
+  "name": "projet-devfont-hbonnet",
+  "version": "1.0.0",
+  "description": "Projet de Développement Web Font - Présentation MacBook Pro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbnt30/projet-devfont-hbonnet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hbnt30/projet-devfont-hbonnet/issues"
+  },
+  "homepage": "https://github.com/hbnt30/projet-devfont-hbonnet#readme",
+  "dependencies": {
+    "parcel": "^1.12.4"
+  },
+  "devDependencies": {
+    "sass": "^1.26.3"
+  }
+}
