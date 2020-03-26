@@ -1,0 +1,17 @@
+.brand {
+  background-color: #131218;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.brand__logo {
+  height: 35px;
+  margin: 0.8rem;
+}
+
+.brand__text {
+  color: white;
+  margin-top: 6px;
+}

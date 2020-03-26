@@ -1,0 +1,10 @@
+@import "./brand/brand.scss";
+@import "./presentation/presentation.scss";
+@font-face {
+  font-family: SF Pro Light;
+  src: url("./../assets/fonts/sf-pro-display_regular.woff2") format("woff2");
+}
+*,
+header {
+  font-family: SF Pro Light;
+}
