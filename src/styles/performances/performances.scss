@@ -8,7 +8,6 @@
 @include medium {
   .performances {
     padding: 2rem;
-    padding-top: 3rem;
   }
 }
 
@@ -152,7 +151,7 @@
     font-size: 1.8vw;
   }
 
-  .performances_others_descriptions {
+  .performances__others-descriptions {
     display: flex;
   }
 }
