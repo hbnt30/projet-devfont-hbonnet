@@ -1,0 +1,50 @@
+.infosliens {
+  background-color: white;
+  color: black;
+  padding: 1rem;
+}
+
+@include medium {
+  .infosliens {
+    padding: 2rem;
+  }
+}
+
+.infosliens__list {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+@include medium {
+  .infosliens__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+  }
+  .infosliens__item {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    width: 200px;
+  }
+}
+
+@include large {
+  .infosliens {
+    font-size: 1.2rem;
+  }
+}
+
+.infosliens__item {
+  padding: 0.2rem;
+  color: black;
+  text-align: center;
+}
+.infosliens__item > a {
+  color: black;
+  text-decoration: none;
+}
+.infosliens__item > a:hover {
+  font-family: "SF Pro Semi-bold", sans-serif;
+}

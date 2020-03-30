@@ -1,0 +1,59 @@
+.macoscatalina {
+  background-color: #131218;
+  color: white;
+  padding: 1rem;
+  padding-top: 3rem;
+}
+
+@include medium {
+  .macoscatalina {
+    padding: 2rem;
+  }
+}
+
+@include large {
+  .macoscatalina {
+    padding-top: 5rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+}
+
+.macoscatalina__title {
+  font-size: 2rem;
+  font-family: "SF Pro Semi-bold", sans-serif;
+  padding-bottom: 0.5rem;
+}
+
+@include medium {
+  .macoscatalina__title {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.macoscatalina__slogan {
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+}
+@include medium {
+  .macoscatalina__slogan {
+    font-size: 2rem;
+  }
+}
+
+.macoscatalina__illustration {
+  width: 100%;
+}
+
+.macoscatalina__description {
+  padding-top: 1rem;
+  text-align: justify;
+}
+
+@include large {
+  .macoscatalina__description {
+    font-size: 1.4vw;
+    font-family: "SF Pro Light", sans-serif;
+  }
+}
