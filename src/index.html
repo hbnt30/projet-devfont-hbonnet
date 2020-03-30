@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/vendors/reset.scss" />
     <link rel="stylesheet" href="./styles/style.scss" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      rel="stylesheet"
+    />
     <title>MacBook Pro</title>
   </head>
   <body>
@@ -43,18 +47,64 @@
       </section>
       <section class="performances">
         <h2 class="performances__title">Performances</h2>
-        <p class="performances__slogan">Super puissant.</p>
-        <p class="performances__slogan">Super portable.</p>
-        <p class="performances__description">
-          Avec le MacBook Pro, l’ordinateur portable atteint des sommets inédits
-          en matière de performances et de portabilité. Grâce à des processeurs
-          et une mémoire hautes performances, à des graphismes avancés et à un
-          système de stockage d’une rapidité fulgurante, il donne vie à toutes
-          vos idées plus vite que jamais. Et comme il pèse moins de 1,4 kg, il
-          vous accompagne partout, quelles que soient les contrées où vous mène
-          votre imagination.
-        </p>
-        <img src="./assets/img/macbook-interior.png" alt="" />
+        <p class="performances__slogan">Super puissant. Super portable.</p>
+        <div class="performances__desc-and-illustration">
+          <p class="performances__description">
+            Avec le MacBook Pro, l’ordinateur portable atteint des sommets
+            inédits en matière de performances et de portabilité. Grâce à des
+            processeurs et une mémoire hautes performances, à des graphismes
+            avancés et à un système de stockage d’une rapidité fulgurante, il
+            donne vie à toutes vos idées plus vite que jamais. Et comme il pèse
+            moins de 1,4 kg, il vous accompagne partout, quelles que soient les
+            contrées où vous mène votre imagination.
+          </p>
+          <figure class="performances__illustration">
+            <img src="./assets/img/macbook-interior.png" alt="" />
+          </figure>
+        </div>
+
+        <ul class="performances__list">
+          <li class="performances__item">
+            <i class="fas fa-heart"></i>4 cœurs
+          </li>
+          <li class="performances__item">
+            <i class="fas fa-microchip"></i>Jusqu’à 4,7 GHzen mode Turbo Boost
+          </li>
+          <li class="performances__item">
+            <i class="fas fa-memory"></i>Jusqu’à 16 Go de mémoire
+          </li>
+          <li class="performances__item">
+            <i class="fas fa-tachometer-alt"></i>Jusqu’à 3,2 Go/s
+          </li>
+        </ul>
+        <div class="performances_others_descriptions">
+          <div>
+            <h3 class="performances__subtitle">
+              Plus de puissance. Haut les cœurs
+            </h3>
+            <p class="performances__description">
+              Avec son processeur Intel quadricœur de huitième génération, le
+              MacBook Pro 13 pouces sera à la hauteur de vos tâches les plus
+              ardues. Qu’il s’agisse de compiler du code, de faire de la
+              modélisation 3D, d’ajouter des effets spéciaux, de superposer
+              plusieurs pistes ou d’encoder de la vidéo, toutes vos tâches
+              professionnelles s’accompliront vite. Encore plus vite.
+            </p>
+          </div>
+          <div>
+            <h3 class="performances__subtitle">
+              Processeurs graphiques
+            </h3>
+            <p class="performances__description">
+              Des performances graphiques qui sautent aux yeux. Le MacBook Pro
+              13 pouces est doté d’un puissant processeur graphique intégré avec
+              128 Mo de mémoire DRAM embarquée, soit deux fois plus que sur la
+              génération précédente, ce qui a pour effet d’accélérer les tâches
+              graphiques. Le résultat, c’est plus de temps pour ce qui compte le
+              plus à vos yeux : faire du beau travail.
+            </p>
+          </div>
+        </div>
       </section>
     </main>
     <footer></footer>

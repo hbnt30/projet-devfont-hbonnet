@@ -1,0 +1,158 @@
+.performances {
+  background-color: #131218;
+  color: white;
+  padding: 1rem;
+  padding-top: 3rem;
+}
+
+@include medium {
+  .performances {
+    padding: 2rem;
+    padding-top: 3rem;
+  }
+}
+
+@include large {
+  .performances {
+    padding-top: 5rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+}
+
+.performances__title {
+  font-size: 2rem;
+  font-family: "SF Pro Semi-bold", sans-serif;
+  padding-bottom: 0.5rem;
+}
+
+@include medium {
+  .performances__title {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.performances__slogan {
+  font-size: 1.4rem;
+}
+@include medium {
+  .performances__slogan {
+    font-size: 2rem;
+  }
+}
+
+.performances__description {
+  padding-top: 1rem;
+  text-align: justify;
+}
+
+.performances__illustration {
+  padding-top: 1rem;
+  width: 100%;
+}
+
+@include medium {
+  .performances__illustration {
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .performances__illustration > img {
+    width: 60%;
+  }
+}
+
+@include large {
+  .performances__desc-and-illustration {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+  }
+  .performances__description {
+    width: 90%;
+    font-size: 1.5vw;
+    font-family: "SF Pro Light", sans-serif;
+  }
+  .performances__illustration {
+    padding: 0;
+    width: 80%;
+    text-align: right;
+  }
+  .performances__illustration > img {
+    width: 70%;
+  }
+}
+
+.performances__list {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.performances__item {
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  color: black;
+  margin: 0.2rem 0;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.performances__item:hover {
+  background-color: white;
+}
+
+.performances__item > i {
+  padding-right: 1rem;
+}
+
+@include medium {
+  .performances__list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .performances__item {
+    margin: 0.4rem 0.4rem;
+  }
+  .performances__item:first-of-type {
+    margin-left: 0;
+  }
+  .performances__item:last-of-type {
+    margin-right: 0;
+  }
+}
+
+@include large {
+  .performances__list {
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
+  .performances__item {
+    margin: 0.4rem 0.4rem;
+  }
+  .performances__item:first-of-type {
+    margin-left: 0;
+  }
+  .performances__item:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.performances__subtitle {
+  padding-top: 1rem;
+  font-size: 1.4rem;
+  font-family: "SF Pro Semi-bold", sans-serif;
+}
+
+@include large {
+  .performances__subtitle {
+    padding-top: 1rem;
+    font-size: 1.8vw;
+  }
+
+  .performances_others_descriptions {
+    display: flex;
+  }
+}

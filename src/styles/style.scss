@@ -1,11 +1,29 @@
 @import "./config/mixin.scss";
 @import "./brand/brand.scss";
 @import "./presentation/presentation.scss";
+@import "./performances/performances.scss";
 @font-face {
-  font-family: SF Pro Light;
+  font-family: "SF Pro Regular";
   src: url("./../assets/fonts/sf-pro-display_regular.woff2") format("woff2");
 }
-*,
-header {
-  font-family: SF Pro Light;
+@font-face {
+  font-family: "SF Pro Semi-bold";
+  src: url("./../assets/fonts/sf-pro-display_semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "SF Pro Light";
+  src: url("./../assets/fonts/sf-pro-text_ultralight.woff2") format("woff2");
+}
+
+body {
+  font-family: "SF Pro Regular", sans-serif;
+}
+* {
+  transition: 0.3s;
+}
+@include medium {
+  * {
+    font-size: 1.2rem;
+  }
 }

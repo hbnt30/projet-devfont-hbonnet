@@ -1,11 +1,17 @@
 .presentation {
   background-color: #131218;
   color: white;
+  padding-top: 3rem;
   text-align: center;
 }
 .presentation__illustration {
-  margin-top: 3rem;
-  width: 70%;
+  width: 100%;
+}
+
+@include medium {
+  .presentation__illustration {
+    width: 70%;
+  }
 }
 .presentation__title {
   text-align: center;
@@ -30,7 +36,6 @@
   display: flex;
   flex-direction: column;
   padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
 }
 
 .presentation__item {
