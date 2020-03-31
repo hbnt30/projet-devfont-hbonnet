@@ -3,16 +3,10 @@
   color: white;
   padding: 1rem;
   padding-top: 3rem;
-}
-
-@include medium {
-  .sidecar {
+  @include medium {
     padding: 2rem;
   }
-}
-
-@include large {
-  .sidecar {
+  @include large {
     padding-top: 5rem;
     padding-left: 12rem;
     padding-right: 12rem;
@@ -23,10 +17,7 @@
   font-size: 2rem;
   font-family: "SF Pro Semi-bold", sans-serif;
   padding-bottom: 0.5rem;
-}
-
-@include medium {
-  .sidecar__title {
+  @include medium {
     font-size: 3rem;
     padding-bottom: 1rem;
   }
@@ -35,9 +26,7 @@
 .sidecar__slogan {
   font-size: 1.4rem;
   padding-bottom: 1rem;
-}
-@include medium {
-  .sidecar__slogan {
+  @include medium {
     font-size: 2rem;
   }
 }
@@ -45,6 +34,14 @@
 .sidecar__description {
   padding-top: 1rem;
   text-align: justify;
+  @include large {
+    font-size: 1.4vw;
+    font-family: "SF Pro Light", sans-serif;
+    width: 50%;
+    margin-left: 2rem;
+    text-align: justify;
+    margin-right: 2rem;
+  }
 }
 @include large {
   .sidecar__demo {
@@ -52,19 +49,9 @@
     display: flex;
     align-items: center;
   }
-  .sidecar__description {
-    text-align: justify;
-    margin-right: 2rem;
-  }
 }
 
 @include large {
-  .sidecar__description {
-    font-size: 1.4vw;
-    font-family: "SF Pro Light", sans-serif;
-    width: 50%;
-    margin-left: 2rem;
-  }
   .sidecar__illustration {
     width: 70%;
   }

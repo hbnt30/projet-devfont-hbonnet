@@ -3,16 +3,10 @@
   color: white;
   padding: 1rem;
   padding-top: 3rem;
-}
-
-@include medium {
-  .screenaudio {
+  @include medium {
     padding: 2rem;
   }
-}
-
-@include large {
-  .screenaudio {
+  @include large {
     padding-top: 5rem;
     padding-left: 12rem;
     padding-right: 12rem;
@@ -23,10 +17,7 @@
   font-size: 2rem;
   font-family: "SF Pro Semi-bold", sans-serif;
   padding-bottom: 0.5rem;
-}
-
-@include medium {
-  .screenaudio__title {
+  @include medium {
     font-size: 3rem;
     padding-bottom: 1rem;
   }
@@ -35,9 +26,7 @@
 .screenaudio__slogan {
   font-size: 1.4rem;
   padding-bottom: 1rem;
-}
-@include medium {
-  .screenaudio__slogan {
+  @include medium {
     font-size: 2rem;
   }
 }
@@ -45,15 +34,7 @@
 .screenaudio__description {
   padding-top: 1rem;
   text-align: justify;
-}
-
-.screenaudio__description {
-  padding-top: 1rem;
-  text-align: justify;
-}
-
-@include large {
-  .screenaudio__description {
+  @include large {
     font-size: 1.4vw;
     font-family: "SF Pro Light", sans-serif;
   }
