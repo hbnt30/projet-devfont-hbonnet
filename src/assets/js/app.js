@@ -1,14 +1,14 @@
 var fade = {
   opacity: 0.1,
   delay: 200,
-  duration: 50000,
+  duration: 500,
   reset: true
 };
 
 var right = {
   opacity: 0.1,
-  delay: 200,
-  duration: 50000,
+  delay: 50,
+  duration: 1000,
   distance: "100px",
   origin: "left"
 };
